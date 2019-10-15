@@ -116,3 +116,72 @@ textarea{
 .thumbnail5{
     clear: both;
 }
+@media screen and (max-width: 980px){
+    .paragraph{
+        width: 60%;
+        height: 40%;
+        float:left;
+        font-size: 14px;
+    }
+    .profilepic{
+        height: 300px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 768px){
+    .paragraph{
+        width: 90%;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        float: none;
+    }
+}
+@media screen and (max-width: 640px){
+    .paragraph{
+        width: 90%;
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    .profilepic{
+        float: none;
+    }
+    .topbar{
+        height: 125px;
+        clear: both;
+        position: relative;
+    }
+    .bigheading{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        top:0;
+        left:0;
+        float: none;
+        margin:0;
+    }
+    .navigation{
+        clear: both;
+        height: 30%;
+        float: none;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+    ul{
+        clear: both;
+        margin: 0 auto;
+    }
+    .thumbnail1,
+    .thumbnail2,
+    .thumbnail3,
+    .thumbnail4,
+    .thumbnail5{
+        float: none;
+        width: 80%;
+        height: auto;
+    }
+}
